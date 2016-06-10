@@ -1,0 +1,17 @@
+name: BxFlight
+main: xyz.aksp.np.flight.BxFlight
+version: "1.0.0"
+api: ["1.0.0"]
+load: POSTWORLD
+author: xp
+description: 浮空字
+
+commands:
+  flight:
+    description: Example command
+    usage: "/flight <name> <content>"
+    permission: flight.command.flight
+permissions:
+  flight.command.flight:
+    description: "浮空字"
+    default: op
